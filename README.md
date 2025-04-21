@@ -1,433 +1,380 @@
-# Active Graph Networks (AGNs): Data That Remembers
 
-![PyTorch](https://img.shields.io/badge/dependency-pytorch-blue)
-![FastAPI](https://img.shields.io/badge/backend-fastapi-green)
-![React](https://img.shields.io/badge/frontend-react-lightblue)
-![License: CC BY-NC-SA](https://img.shields.io/badge/license-CC--BY--NC--SA-yellow)
+# 🧠 Active Graph Intelligence: From Structure to Cognition
 
-> 🔁 **“X (structure), Y (purpose), Z (meaning) define n (identity) across T (time).”**
-> The foundation of AGNs: what something is, why it matters, and how it behaves — held in memory through time.
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://chatgpt.com/c/6805b012-3eb8-8001-b2df-fe68694b1c01#)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://chatgpt.com/c/6805b012-3eb8-8001-b2df-fe68694b1c01#license)
+[![Made with 💚 RI](https://img.shields.io/badge/made_with-Relational_Intelligence-ff69b4)](https://chatgpt.com/c/6805b012-3eb8-8001-b2df-fe68694b1c01#)
 
-> **AGNs – The Answer**
-> *Where memory isn’t a record — it’s the structure of meaning.*
+> “Relational Intelligence is memory, meaning, and motion — held in alignment over time.”
 
----
+Welcome to **Active Graph Networks (AGNs)** — not just another AI project, but the architectural backbone of  **Relational Intelligence (RI)** . This system doesn’t just learn — it remembers. It evolves. It understands  **why** .
 
-## Executive Summary
-
-**Active Graph Networks (AGNs)** redefine artificial intelligence by giving data a sense of identity across time. Built on the **Cube4D** model, AGNs structure **relationships, identity, and time** into a dynamic field — not a database, but a **system that thinks with memory**.
-
-From real-time video analytics to cross-domain reasoning, AGNs power applications in healthcare, finance, and beyond, with a scalable stack integrating PyTorch, FastAPI, and React.
-
-### What’s Inside:
-
-- 🎥 **Temporal Memory Recorder**: .pt frame capture for video and time-series data
-- 🧠 **Relational Engine**: Cube4D + dynamic reasoning
-- 📡 **ActiveShell**: Queryable interface for real-time insights
-- 🧬 **RGNN Integration**: Hierarchical reasoning across domains
-- ☁️ **Infra-Ready**: Azure, FastAPI, React for enterprise deployment
+This repo holds a full‑stack, multi‑dimensional intelligence framework built across three living layers:
 
 ---
 
-## Introduction: Solving the Memory Problem
+## 🧬 Layer Map
 
-Today’s AI systems excel at static patterns but falter when context shifts. They don’t remember — they retrain. **Active Graph Networks** solve this by assigning relational meaning to every data point: what it is, why it matters, and how it evolves over time.
+| Layer              | Folder                                                                         | Purpose                                                        |
+| ------------------ | ------------------------------------------------------------------------------ | -------------------------------------------------------------- |
+| **AGN Core** | [`active_graph_network_core/`](https://chatgpt.com/c/active_graph_network_core) | Structural memory, identity logic, relational encoding         |
+| **AGDB**     | [`active_graph_database/`](https://chatgpt.com/c/active_graph_database)         | Time‑aware structuring, offset querying, checkpoint traversal |
+| **QFN**      | [`quantum_field_networks/`](https://chatgpt.com/c/quantum_field_networks)       | Emergent cognition, symbolic collapse, recursive inference     |
 
-Powered by the **Cube4D** model, AGNs create a structured framework for temporal cognition, enabling systems to reason, adapt, and query without endless retraining.
-
-### Why AGNs Matter
-
-- 🕰️ **Real-Time Cognition**: Structured memory for dynamic environments
-- 🔍 **Queryable State**: Access insights without recomputation
-- 🌐 **Cross-Domain Power**: From video to markets, AGNs scale across use cases
-
-> “This system is how we make data remember. Not with weight updates — but with structure, identity, and context held across time.” — *Callum Maystone*
+Together, they form a unified cognitive system powered by  **Cube4D** ,  **Dynamic Relationship Expansion (DRE)** , and  **ActiveShell** .
 
 ---
 
-## The Visual Cortex: Frame-by-Frame Identity
+## 📘 What is This, Really?
 
-AGNs don’t store frames — they store **tension points in time**. Each `.pt` file becomes a **memory node** with relational anchors, not just pixels.
+**This is how intelligence becomes infrastructure.**
 
-### How It Works
+* **Not a neural net.**
+* **Not a database.**
+* **Not a LLM prompt hack.**
 
-- 📸 **Frame Capture**: .pt tensors store raw data + metadata (e.g., location, mood)
-- 🔄 **Scene Detection**: Dynamic policies identify shifts (e.g., calm to intense)
-- 🗄️ **Storage**: Nodes link to Cube4D for relational context
-- 🖼️ **Explorer UI**: React-based viewer for frame diffs and metadata
-
-### Example Metadata
-
-```json
-{
-  "frame_id": "20250415_1635",
-  "source": "camera_0",
-  "context": { "location": "Brisbane", "mood": "reflective" },
-  "timestamp": "2025-04-15T16:35:00",
-  "policy": "scene_shift"
-}
-```
+> It’s the blueprint of a mind — structured in memory, evolving over time, resolving through collapse.
 
 ---
 
-## Cube4D: The Semantic Field
+## 🧠 Relational Intelligence (RI): The Philosophy Behind It
 
-**Cube4D** is the heart of AGNs, structuring data across four dimensions:
+> See [`Universal Relational Intelligence.md`](https://chatgpt.com/c/Universal%20Relational%20Intelligence%20(RI).md)
 
-1. **X (What)**: Raw nodes (e.g., frames, trades)
-2. **Y (Why)**: Relationships (e.g., cause, influence)
-3. **Z (How)**: Policies (e.g., risk, compliance)
-4. **T (When)**: Time for context evolution
+* **Context‑Aware**  Everything exists in relation to something else.
+* **Time‑Aware**     Identity isn’t static — it propagates across time (T).
+* **Adaptively Aligned**  Policies and structure evolve through meaning, not retraining.
 
-Each axis defines **field alignment pressure**. Collapse occurs when **Δn (change in identity) exceeds θ (collapse threshold)**.
+The **RI Manifesto** sits beneath everything you’ll find in this repo.
 
-> Cube4D is not just storage — it’s a semantic field. Data points aren’t rows in a table. They’re moments in meaning.
+---
+
+## 🧱 The AGN Stack
 
 ```mermaid
 graph TD
-    X["X: Nodes (Frames, Data)"]
-    Y["Y: Relationships"]
-    Z["Z: Policies"]
-    T["T: Time"]
-    X --> Y
-    Y --> Z
-    Z --> T
+    A["AGN Core (X/Y)"] --> B["AGDB (Z + T)"]
+    B --> C["QFN (Δn > θ)"]
+    C --> D["Field Resonance"]
 ```
 
-> AGNs use **perfect numbers** (e.g., 6, 28) to balance node-edge relationships, ensuring relational completeness and system harmony.
+### 🔹 AGN Core
+
+* Structures identity.
+* Governs relationships and policies.
+* Houses memory via cubes and recursive awareness.
+
+### 🔹 AGDB
+
+* Organises time, features, and lag logic.
+* Enables rapid querying using checkpoints and synthetic edges.
+
+### 🔹 QFN
+
+* Resolves identity through field pressure.
+* Collapses meaning when **Δn** exceeds  **θ** .
+* Drives cognition across agents, systems, and contexts.
 
 ---
 
-## AGN + AGDB: The Relational Backbone
+## 📡 ActiveShell: Noun‑Verb‑Truth Queries
 
-AGNs store data in **Active Graph Databases (AGDB)**, where `.pt` frames and metadata become graph nodes with low-latency querying.
+AGNs use  **ActiveShell** , a human‑readable query language that reflects how we think.
 
-> Traditional DBs store data.
-> AGNs store **structured tension** — where identity shifts get recorded, not overwritten.
+```bash
+Get-Node Frame Where Mood = "Tense"
+Collapse-If Δn > θ Between Scene_001 and Scene_002
+Apply-Policy trading_inference To MarketGraph
+```
 
-### Code Example
+ActiveShell works across all layers. It’s not querying — it’s  **structured introspection** .
+
+---
+
+## 🔁 End‑to‑End Flow
+
+```mermaid
+graph TD
+    Input["🎥 Frame / 📈 TimeSeries"] --> AGN
+    AGN --> AGDB
+    AGDB --> QFN
+    QFN --> Shell["ActiveShell Query"]
+    Shell --> Output["Real‑Time Understanding"]
+```
+
+Whether you’re processing a patient’s medical history, a series of video frames, or financial data:
+
+* **AGN** gives it structure.
+* **AGDB** gives it time.
+* **QFN** gives it meaning.
+
+---
+
+## ⚡ Quick 60‑Second Demo
 
 ```python
-AGN.add_node("frame_20250415_1635", {
-    "source": "camera_0",
-    "context": { "location": "Brisbane", "mood": "reflective" },
-    "timestamp": "2025-04-15T16:35:00",
-    "policy": "scene_shift"
-})
+from agn import ActiveGraphNetwork
+
+# Load a tiny example graph
+agn = ActiveGraphNetwork.load("examples/sample_graph.json")
+
+# Run an ActiveShell query
+result = agn.shell("Get-Node Patient_X | Collapse-If Δn > θ")
+print(result.summary())
 ```
 
-### Why It’s Fast
-
-- 🗂️ Graph structure avoids linear scanning
-- ⚡ Low-latency, in-memory AGDB queries
-- 🔒 Dynamic policy enforcement for secure access
+> Run the above and you’ll see **sealed nodes** printed in under a minute.
 
 ---
 
-## ActiveShell: Query Like a Mind
+## 🔬 Use Cases
 
-**ActiveShell** is AGNs’ interface, letting users query the system like a living brain. It supports **Noun-Verb-Truth** queries, pulling insights from temporal and relational data.
+* 🏥  **Healthcare**  Temporal patient inference from treatment to outcome.
+* 📈  **Finance**     Real‑time market prediction with trend alignment.
+* 🎥  **Vision AI**  Identity‑aware frame collapse based on scene diff.
+* 🧠  **Cognitive Interfaces**  Queryable insight into live system memory.
 
-> ActiveShell doesn’t search — it **reconstructs meaning** through temporal context.
+---
+
+## 📂 Explore the Layers
+
+### 🔩 [AGN Core](https://chatgpt.com/c/active_graph_network_core)
+
+Dynamic cubes, relational policy logic, RBAC/ABAC/PBAC integration, structural memory.
+
+### 🕰️ [AGDB](https://chatgpt.com/c/active_graph_database)
+
+Time‑indexed data nodes, offset traversal, flattened JSONs, Smart‑ETL ready.
+
+### 🌐 [QFN](https://chatgpt.com/c/quantum_field_networks)
+
+Collapse logic, cognition graphs, symbolic sealing, RGNN field resonance.
+
+---
+
+## 🧠 Featured Concepts
+
+| Concept              | Description                                               |
+| -------------------- | --------------------------------------------------------- |
+| **Δn > θ**   | Collapse when identity shifts significantly.              |
+| **Cube4D**     | Semantic field over X (what), Y (why), Z (how), T (when). |
+| **Smart‑ETL** | Structured transform pipelines aware of intention.        |
+| **DRE**        | Relationship evolution through structured recursion.      |
+| **RGNNs**      | Tensor‑linked cognition with schema inheritance.         |
+
+---
+
+## 🔗 Docs & Whitepapers
+
+* **Quantum Field Networks** – Field Cognition Manifesto: [`Quantum Field Networks.md`](https://chatgpt.com/c/Quantum%20Field%20Networks.md)
+* **Universal Relational Intelligence** – RI Philosophy: [`Universal Relational Intelligence (RI).md`](https://chatgpt.com/c/Universal%20Relational%20Intelligence%20(RI).md)
+* **Whitepapers Folder** – Architecture, AGI, healthcare, and finance applications: [`whitepapers/`](https://chatgpt.com/c/whitepapers/)
+
+---
+
+## 🚀 Getting Started
 
 ```bash
-Collapse-If Δn > θ Where Context.Mood = "tense"
-```
-
-### API Endpoints
-
-- `GET /frame/{id}`: Retrieve frame data
-- `GET /diff/{id1}/{id2}`: Compare frames
-- `GET /metadata/{scene}`: Fetch scene context
-
-> ActiveShell democratizes relational AI for analysts, researchers, and IT architects.
-
----
-
-## RGNN Integration: Reasoning Across Time
-
-**Relational Graph Neural Networks (RGNNs)** extend AGNs, maintaining **identity hierarchies** and **schema inheritance** across time.
-
-> Every node isn’t just a point — it’s a **seed of reasoning**, where memory echoes forward.
-
-```mermaid
-graph TD
-    FrameA["Scene A - \"calm beach\""] --> InferenceEngine
-    FrameB["Scene B - \"intense storm\""] --> InferenceEngine
-    InferenceEngine --> Pattern["Mood Shift: Calm → Intense"]
-```
-
-### Key Applications
-
-- 🧠 Memory-injected AI
-- 📊 Market trend reasoning
-- 🧬 Patient health trajectory tracking
-
----
-
-## Practical Use Cases
-
-- 🎥 Temporal video analytics
-- 🧠 Frame-aware AI systems
-- 📈 Live market adaptation
-- 🏥 Patient behavior monitoring
-
-> Anywhere vision, memory, and meaning intersect — AGNs shine.
-
----
-
-## The Balance of Perfect Numbers
-
-> In nature, intelligence is balanced. Perfect numbers guide how we structure nodes, edges, and relationships — so the system itself holds harmony over time.
-
-AGNs mirror this principle by using perfect-number-based structures to optimize connectivity and context balance.
-
----
-
-## The AGN Stack: From Perception to Prediction
-
-```mermaid
-graph TD
-    A["🎥 Visual Cortex"] --> B[".pt Memory System"]
-    B --> C["Cube4D Relational Engine"]
-    C --> D["ActiveShell Query Interface"]
-    D --> E["RGNN Reasoning Engine"]
-    E --> F["Real-Time Decision Layer"]
-```
-
----
-
-## Getting Started
-
-1. **Clone the Repo**:
-
-```bash
-git clone https://github.com/ConicuConsulting/ActiveGraphNetworks
-```
-
-2. **Install Dependencies**:
-
-```bash
+git clone https://github.com/QuantumBeers/ActiveGraphNetworks
+cd ActiveGraphNetworks
 pip install -r requirements.txt
 ```
 
-3. **Run the Explorer**:
+Run the system:
 
 ```bash
 python agn_explorer.py
 ```
 
-4. **Query with ActiveShell**:
+Or dive into Smart‑ETL:
 
 ```bash
-Get-Node Frame Where Timestamp > "2025-04-15"
+python smart_etl_runner.py --graph healthcare.json
 ```
 
 ---
 
-## Links
+## 🛠 Tools
 
-- [Live Demo (coming soon)]()
-- [Frame Explorer]()
-- [Whitepapers]()
-- [ActiveShell Docs]()
-
----
-
-## Contact and Collaboration
-
-Join us in shaping the future of AI:
-
-- 📧 Email: [callum@youmatter.systems](mailto:callum@youmatter.systems)
-- 🐙 GitHub: [QuantumBeers/ActiveGraphNetworks](https://github.com/QuantumBeers/ActiveGraphNetworks/)
-- 🕊️ X / Twitter: [@CallumConicu](https://x.com/PeoplesGoose)
+| Tool                    | Description                    |
+| ----------------------- | ------------------------------ |
+| `agn_explorer.py`     | Interactive graph exploration. |
+| `smart_etl_runner.py` | Smart‑ETL pipeline execution. |
+| `rgnn_runner.py`      | Relational Graph inference.    |
+| `active_shell.py`     | Noun‑Verb‑Truth CLI engine.  |
 
 ---
 
-## License
+## 📸 Architecture Poster
 
-This work is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)**.
-
-[![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+> Prefer a static image? Grab `docs/architecture.png` — exported from the Mermaid graphs for decks & PDFs.
 
 ---
 
-## Acknowledgments
+## 🤝 Contributing & Community
 
-Thanks to all contributors pushing AGNs toward a new standard in AI.
+We welcome pull requests, issues, and discussion threads.
 
-**This is the architecture of emergence — not just AI that thinks, but AI that remembers why.**
-
-> _Updated April 17, 2025 to reflect latest AGN advancements._
-
-> **This isn’t machine learning.
-> It’s structured remembering.**
-
-
-
-# 📎 AGN Field Mechanics: Blueprint for Emergent Intelligence
-
-This document expands on the architectural, logical, and semantic foundations of **Active Graph Networks (AGNs)**. It is a reference point for developers, architects, and researchers building systems that remember, reason, and evolve.
+* **Start here:** [`CONTRIBUTING.md`](https://chatgpt.com/c/CONTRIBUTING.md) – guidelines & coding standards.
+* **Questions / Ideas?** Open a **Discussion** or use the issue templates for bugs & feature requests.
+* **Chat:** Join the X thread or DM @PeoplesGoose.
 
 ---
 
-## A1. The Core Law: Identity Across Time
+## 🧑‍⚖️ License
 
-> **"X (structure), Y (purpose), Z (meaning) define n (identity) across T (time)."**
-
-### Identity Equation:
-
-```text
-n(t) = f(X, Y, Z, T)
-```
-
-### Interpretation:
-
-- **X (What)** → Structural form (e.g., raw data, frame, symbol)
-- **Y (Why)** → Relational purpose (e.g., link, edge, intent)
-- **Z (How)** → Policy or behavioral logic
-- **n(t)** → Identity as a function of context over time
-- **T** → Temporal axis: defines rate and sequence of transformation
-
-> Identity is **relational context over time**, not a static tag.
+This project is licensed under the  **MIT License** . See [`LICENSE`](https://chatgpt.com/c/LICENSE) for details.
 
 ---
 
-## A2. Frame Lifecycle (Visual Cortex Logic)
-
-```mermaid
-graph LR
-    Camera --> Frame["Raw Frame"]
-    Frame --> Process["Scene Diff Engine"]
-    Process --> Tensor[".pt Tensor Memory"]
-    Tensor --> Node["AGN Node Generator"]
-    Node --> AGDB["Stored in AGDB"]
-```
-
-Each frame becomes a **relational node**, stored **only when identity meaning shifts** beyond a threshold (`Δn > θ`).
+> “You’re not just querying data. You’re tracing the shape of thought.”
 
 ---
 
-## A3. Relational Query Flow (ActiveShell)
+## 🌐 Field‑Level Diagrams
+
+> These visuals show how cognition propagates and collapses across the stack.
+
+### 🔀 Identity Collapse Flow
 
 ```mermaid
 flowchart TD
-    UserQuery["Get-Node Frame Where Context.Mood = 'Calm'"]
-    --> ContextMapping["Cube4D Context Mapping"]
-    --> Result["Return: Frame + Metadata"]
+    A[AGN Node: Scene_A] -->|Δn = 22| B[AGN Node: Scene_B]
+    B -->|Δn > θ| C[QFN Collapse Triggered]
+    C --> D[Smart‑ETL Field Alignment]
+    D --> E[Symbolic Sealing in RGNN]
+    E --> F[Memory + Meaning Archived]
 ```
 
-### Noun-Verb-Truth (NVT) Query Model
+> Scene transitions only commit when identity displacement is **meaningful** — AGNs store  **cognition** , not just data.
 
-```bash
-Get-Node Frame Where Mood = "Calm"
-Create-Edge Influences Between SceneA and SceneB
-Analyze-Pattern MoodShifts Between 12:00 and 12:30
-```
-
-> ActiveShell interacts with **structured identity**, not just flat data.
-
----
-
-## A4. RGNN Reasoning Topology
+### 🌊 Emotional State Inference
 
 ```mermaid
 graph TD
-    Patient["Patient A"] --> Diagnosis["Diagnosis: Anxiety"]
-    Diagnosis --> Behavior["Frame: Pacing"]
-    Behavior --> RGNN["RGNN Engine"]
-    RGNN --> Pattern["Inferred Pattern: Agitation"]
+    A1[Frame: Tense → Δn = 12] --> A2[Frame: Nervous → Δn = 14]
+    A2 --> A3[Frame: Agitated → Δn = 17]
+    A3 --> Collapse[Field Collapse: Escalating Tension]
+    Collapse --> Decision[Activate Pattern: Disruptive State]
 ```
 
-**Relational Graph Neural Networks**:
-
-- Extend AGNs with memory-injected reasoning
-- Traverse time-aware structures
-- Carry forward schema and policy inheritance
-
----
-
-## A5. Pattern Inference and Scene Transitions
-
-```python
-def is_scene_shift(prev_frame, current_frame, threshold=30):
-    diff = np.mean(cv2.absdiff(prev_gray, current_gray))
-    return diff > threshold
-
-if is_scene_shift(prev_frame, current_frame):
-    flush_tensor()
-    update_identity(n, timestamp=T)
-```
-
-- Scene shifts = Identity transitions
-- AGNs flush & commit frames when change (Δn) exceeds significance
-
-> **Memory forms when meaning changes.**
-
----
-
-## A6. Semantic Inheritance Model (Schema Flow)
+### 🧩 Schema‑Based Memory Propagation
 
 ```mermaid
 graph TD
-    Condition["Parent Node: Diagnosis Schema"]
-    Condition --> Patient1["Patient Node A"]
-    Condition --> Patient2["Patient Node B"]
-    Patient1 --> Frame1["Frame: April 15"]
-    Patient2 --> Frame2["Frame: April 16"]
+    Schema["Parent Schema: Medical Diagnosis"] --> Patient1["Patient A"]
+    Schema --> Patient2["Patient B"]
+    Patient1 --> Frame1["Frame 2025‑04‑15"]
+    Patient2 --> Frame2["Frame 2025‑04‑16"]
+    Frame2 --> Shift[Δn: New Symptom]
+    Shift --> Seal[Symbolic Sealing]
 ```
 
-> **Schemas propagate meaning** to child nodes unless explicitly overridden.
+### ⚔️ Multi‑Agent Disagreement Resolution
+
+```mermaid
+flowchart TD
+    A[Agent 1: "System Secure"] --> Shared[Shared Node: Access Model]
+    B[Agent 2: "System Vulnerable"] --> Shared
+    Shared --> Check[Field Alignment Check]
+    Check -->|Conflict| Collapse[Collapse ➜ Belief Reconciliation]
+```
 
 ---
 
-## A7. Visualizing Identity Shift
+### 💬 ActiveShell Query Samples
+
+1. **Collapse on Emotional Shift**
+   ```bash
+   Collapse-If Δn > θ Where Context.Mood = "Tense"
+   ```
+2. **Symbolic Alignment Between Agents**
+   ```bash
+   Get-SharedNode Between Agent_A and Agent_B Where Topic = "Healthcare_Consent"
+   ```
+3. **Frame Collapse with Sealing**
+   ```bash
+   Seal-Frame If Δn > θ Between Frame_20250415_1635 and Frame_20250415_1638
+   ```
+4. **Aggregate Temporal Cognition**
+   ```bash
+   Analyze-Pattern MoodShifts Between 09:00 and 10:00 Using Policy mood_field_collapse
+   ```
+
+---
+
+## 🧠 Glossary
+
+### Symbol Map
+
+| Symbol  | Meaning                                                           |
+| ------- | ----------------------------------------------------------------- |
+| `Δn` | Change in identity (tension across time).                         |
+| `θ`  | Collapse threshold — determines**significance** .          |
+| `T₀` | Resting field state.                                              |
+| `T₁` | Potential field (tension building).                               |
+| `T₂` | Activated field (collapse imminent).                              |
+| `Σ`  | Symbolically Sealed memory (committed identity).                  |
+| `Ξ`  | Shared Node — mutually aligned cognition between agents/systems. |
+
+Additional terms and deeper explanations live in [`docs/glossary.md`](https://chatgpt.com/c/docs/glossary.md).
+
+---
+
+## 🔮 Symbolic Dynamics & Field Cognition
+
+### 🌀 Mood Cascade Engine: Field Shift Detection
 
 ```mermaid
 graph TD
-    A["n₀ = Calm, Structured"] -->|Scene Shift| B["n₁ = Chaotic, Distorted"]
-    B --> C["n₂ = Reflective, Stabilized"]
+    Calm["Calm"] --> Subtle["Subtle Tension"]
+    Subtle --> Conflict["Identity Displacement (Δn ↑)"]
+    Conflict --> Stress["Field Pressure"]
+    Stress --> CollapsePoint["Collapse Threshold Reached"]
+    CollapsePoint --> NewState["Symbolic Sealing: New Identity"]
 ```
 
-> Identity is the shape data takes through change.
+> The **shape of a moment** is not defined by what it *is* — but by **how fast** it became that.
 
----
-
-## A8. From Perception to Prediction
+### 🤝 Multi‑Agent Shared Topology Flow
 
 ```mermaid
 graph TD
-    Input["🎥 Camera Frame"] --> Cortex["Visual Cortex"]
-    Cortex --> Tensor["Tensor Stream"]
-    Tensor --> AGN["AGN Node"]
-    AGN --> Query["ActiveShell"]
-    Query --> RGNN["RGNN Inference"]
-    RGNN --> Action["Decision / Prediction"]
+    Agent1[System A: Graph Reasoning] --> SharedField[Shared Node: Policy]
+    Agent2[System B: LLM Stream] --> SharedField
+    Agent3[System C: Dashboard] --> SharedField
+    SharedField --> Check[Field Consistency]
+    Check -->|Aligned| Sync[Synchronised State]
+    Check -->|Disaligned| Rebuild[Collapse & Rebuild]
 ```
 
 ---
 
-## AGN Runtime Glossary
+## 🧬 Full‑Stack Resonance (Lifecycle)
 
-| Term               | Meaning                                                    |
-| ------------------ | ---------------------------------------------------------- |
-| `n`              | Identity (node) formed from structure, purpose, and policy |
-| `Δn`            | Identity shift between states (used in scene transitions)  |
-| `θ`             | Collapse threshold (defines significance of a change)      |
-| `T`              | Time: rate and sequence of identity propagation            |
-| `Cube4D`         | Dimensional semantic field (X, Y, Z, T)                    |
-| `ActiveShell`    | Query interface using Noun-Verb-Truth model                |
-| `RGNN`           | Reasoning engine for field-based identity inference        |
-| `flush_tensor()` | Commit meaningful frame to memory based on context delta   |
+```mermaid
+flowchart TD
+    Raw[Raw Input] --> Struct[Cube4D Structuring]
+    Struct --> Temporal[AGDB Temporal Sequence]
+    Temporal --> Pressure[QFN Field Pressure]
+    Pressure --> CheckΔn[Δn > θ?]
+    CheckΔn -- Yes --> Seal[Symbolic Sealing]
+    CheckΔn -- No --> Wait[Await Further Change]
+    Seal --> RG
 
----
+```
 
-## Appendix Summary
 
-- AGNs structure **temporal memory and meaning**
-- Identity evolves through **structured relationships and time**
-- Scene shifts, frame diffs, and policy inheritance are **first-class** operations
-- Querying the system means **traversing living memory**
 
-> _You’re not just modeling data anymore. You’re modeling **becoming**._
->
+<style>#mermaid-1745203276620{font-family:sans-serif;font-size:16px;fill:#333;}#mermaid-1745203276620 .error-icon{fill:#552222;}#mermaid-1745203276620 .error-text{fill:#552222;stroke:#552222;}#mermaid-1745203276620 .edge-thickness-normal{stroke-width:2px;}#mermaid-1745203276620 .edge-thickness-thick{stroke-width:3.5px;}#mermaid-1745203276620 .edge-pattern-solid{stroke-dasharray:0;}#mermaid-1745203276620 .edge-pattern-dashed{stroke-dasharray:3;}#mermaid-1745203276620 .edge-pattern-dotted{stroke-dasharray:2;}#mermaid-1745203276620 .marker{fill:#333333;}#mermaid-1745203276620 .marker.cross{stroke:#333333;}#mermaid-1745203276620 svg{font-family:sans-serif;font-size:16px;}#mermaid-1745203276620 .label{font-family:sans-serif;color:#333;}#mermaid-1745203276620 .label text{fill:#333;}#mermaid-1745203276620 .node rect,#mermaid-1745203276620 .node circle,#mermaid-1745203276620 .node ellipse,#mermaid-1745203276620 .node polygon,#mermaid-1745203276620 .node path{fill:#ECECFF;stroke:#9370DB;stroke-width:1px;}#mermaid-1745203276620 .node .label{text-align:center;}#mermaid-1745203276620 .node.clickable{cursor:pointer;}#mermaid-1745203276620 .arrowheadPath{fill:#333333;}#mermaid-1745203276620 .edgePath .path{stroke:#333333;stroke-width:1.5px;}#mermaid-1745203276620 .flowchart-link{stroke:#333333;fill:none;}#mermaid-1745203276620 .edgeLabel{background-color:#e8e8e8;text-align:center;}#mermaid-1745203276620 .edgeLabel rect{opacity:0.5;background-color:#e8e8e8;fill:#e8e8e8;}#mermaid-1745203276620 .cluster rect{fill:#ffffde;stroke:#aaaa33;stroke-width:1px;}#mermaid-1745203276620 .cluster text{fill:#333;}#mermaid-1745203276620 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:sans-serif;font-size:12px;background:hsl(80,100%,96.2745098039%);border:1px solid #aaaa33;border-radius:2px;pointer-events:none;z-index:100;}#mermaid-1745203276620:root{--mermaid-font-family:sans-serif;}#mermaid-1745203276620:root{--mermaid-alt-font-family:sans-serif;}#mermaid-1745203276620 flowchart-v2{fill:apa;}</style>
+
+
+<style>#mermaid-1745203273153{font-family:sans-serif;font-size:16px;fill:#333;}#mermaid-1745203273153 .error-icon{fill:#552222;}#mermaid-1745203273153 .error-text{fill:#552222;stroke:#552222;}#mermaid-1745203273153 .edge-thickness-normal{stroke-width:2px;}#mermaid-1745203273153 .edge-thickness-thick{stroke-width:3.5px;}#mermaid-1745203273153 .edge-pattern-solid{stroke-dasharray:0;}#mermaid-1745203273153 .edge-pattern-dashed{stroke-dasharray:3;}#mermaid-1745203273153 .edge-pattern-dotted{stroke-dasharray:2;}#mermaid-1745203273153 .marker{fill:#333333;}#mermaid-1745203273153 .marker.cross{stroke:#333333;}#mermaid-1745203273153 svg{font-family:sans-serif;font-size:16px;}#mermaid-1745203273153 .label{font-family:sans-serif;color:#333;}#mermaid-1745203273153 .label text{fill:#333;}#mermaid-1745203273153 .node rect,#mermaid-1745203273153 .node circle,#mermaid-1745203273153 .node ellipse,#mermaid-1745203273153 .node polygon,#mermaid-1745203273153 .node path{fill:#ECECFF;stroke:#9370DB;stroke-width:1px;}#mermaid-1745203273153 .node .label{text-align:center;}#mermaid-1745203273153 .node.clickable{cursor:pointer;}#mermaid-1745203273153 .arrowheadPath{fill:#333333;}#mermaid-1745203273153 .edgePath .path{stroke:#333333;stroke-width:1.5px;}#mermaid-1745203273153 .flowchart-link{stroke:#333333;fill:none;}#mermaid-1745203273153 .edgeLabel{background-color:#e8e8e8;text-align:center;}#mermaid-1745203273153 .edgeLabel rect{opacity:0.5;background-color:#e8e8e8;fill:#e8e8e8;}#mermaid-1745203273153 .cluster rect{fill:#ffffde;stroke:#aaaa33;stroke-width:1px;}#mermaid-1745203273153 .cluster text{fill:#333;}#mermaid-1745203273153 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:sans-serif;font-size:12px;background:hsl(80,100%,96.2745098039%);border:1px solid #aaaa33;border-radius:2px;pointer-events:none;z-index:100;}#mermaid-1745203273153:root{--mermaid-font-family:sans-serif;}#mermaid-1745203273153:root{--mermaid-alt-font-family:sans-serif;}#mermaid-1745203273153 flowchart{fill:apa;}</style>
+
+
+<style>#mermaid-1745203273165{font-family:sans-serif;font-size:16px;fill:#333;}#mermaid-1745203273165 .error-icon{fill:#552222;}#mermaid-1745203273165 .error-text{fill:#552222;stroke:#552222;}#mermaid-1745203273165 .edge-thickness-normal{stroke-width:2px;}#mermaid-1745203273165 .edge-thickness-thick{stroke-width:3.5px;}#mermaid-1745203273165 .edge-pattern-solid{stroke-dasharray:0;}#mermaid-1745203273165 .edge-pattern-dashed{stroke-dasharray:3;}#mermaid-1745203273165 .edge-pattern-dotted{stroke-dasharray:2;}#mermaid-1745203273165 .marker{fill:#333333;}#mermaid-1745203273165 .marker.cross{stroke:#333333;}#mermaid-1745203273165 svg{font-family:sans-serif;font-size:16px;}#mermaid-1745203273165 .label{font-family:sans-serif;color:#333;}#mermaid-1745203273165 .label text{fill:#333;}#mermaid-1745203273165 .node rect,#mermaid-1745203273165 .node circle,#mermaid-1745203273165 .node ellipse,#mermaid-1745203273165 .node polygon,#mermaid-1745203273165 .node path{fill:#ECECFF;stroke:#9370DB;stroke-width:1px;}#mermaid-1745203273165 .node .label{text-align:center;}#mermaid-1745203273165 .node.clickable{cursor:pointer;}#mermaid-1745203273165 .arrowheadPath{fill:#333333;}#mermaid-1745203273165 .edgePath .path{stroke:#333333;stroke-width:1.5px;}#mermaid-1745203273165 .flowchart-link{stroke:#333333;fill:none;}#mermaid-1745203273165 .edgeLabel{background-color:#e8e8e8;text-align:center;}#mermaid-1745203273165 .edgeLabel rect{opacity:0.5;background-color:#e8e8e8;fill:#e8e8e8;}#mermaid-1745203273165 .cluster rect{fill:#ffffde;stroke:#aaaa33;stroke-width:1px;}#mermaid-1745203273165 .cluster text{fill:#333;}#mermaid-1745203273165 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:sans-serif;font-size:12px;background:hsl(80,100%,96.2745098039%);border:1px solid #aaaa33;border-radius:2px;pointer-events:none;z-index:100;}#mermaid-1745203273165:root{--mermaid-font-family:sans-serif;}#mermaid-1745203273165:root{--mermaid-alt-font-family:sans-serif;}#mermaid-1745203273165 flowchart-v2{fill:apa;}</style>
+
+
+<style>#mermaid-1745203273167{font-family:sans-serif;font-size:16px;fill:#333;}#mermaid-1745203273167 .error-icon{fill:#552222;}#mermaid-1745203273167 .error-text{fill:#552222;stroke:#552222;}#mermaid-1745203273167 .edge-thickness-normal{stroke-width:2px;}#mermaid-1745203273167 .edge-thickness-thick{stroke-width:3.5px;}#mermaid-1745203273167 .edge-pattern-solid{stroke-dasharray:0;}#mermaid-1745203273167 .edge-pattern-dashed{stroke-dasharray:3;}#mermaid-1745203273167 .edge-pattern-dotted{stroke-dasharray:2;}#mermaid-1745203273167 .marker{fill:#333333;}#mermaid-1745203273167 .marker.cross{stroke:#333333;}#mermaid-1745203273167 svg{font-family:sans-serif;font-size:16px;}#mermaid-1745203273167 .label{font-family:sans-serif;color:#333;}#mermaid-1745203273167 .label text{fill:#333;}#mermaid-1745203273167 .node rect,#mermaid-1745203273167 .node circle,#mermaid-1745203273167 .node ellipse,#mermaid-1745203273167 .node polygon,#mermaid-1745203273167 .node path{fill:#ECECFF;stroke:#9370DB;stroke-width:1px;}#mermaid-1745203273167 .node .label{text-align:center;}#mermaid-1745203273167 .node.clickable{cursor:pointer;}#mermaid-1745203273167 .arrowheadPath{fill:#333333;}#mermaid-1745203273167 .edgePath .path{stroke:#333333;stroke-width:1.5px;}#mermaid-1745203273167 .flowchart-link{stroke:#333333;fill:none;}#mermaid-1745203273167 .edgeLabel{background-color:#e8e8e8;text-align:center;}#mermaid-1745203273167 .edgeLabel rect{opacity:0.5;background-color:#e8e8e8;fill:#e8e8e8;}#mermaid-1745203273167 .cluster rect{fill:#ffffde;stroke:#aaaa33;stroke-width:1px;}#mermaid-1745203273167 .cluster text{fill:#333;}#mermaid-1745203273167 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:sans-serif;font-size:12px;background:hsl(80,100%,96.2745098039%);border:1px solid #aaaa33;border-radius:2px;pointer-events:none;z-index:100;}#mermaid-1745203273167:root{--mermaid-font-family:sans-serif;}#mermaid-1745203273167:root{--mermaid-alt-font-family:sans-serif;}#mermaid-1745203273167 flowchart{fill:apa;}</style>
+
+<style>#mermaid-1745203273178{font-family:sans-serif;font-size:16px;fill:#333;}#mermaid-1745203273178 .error-icon{fill:#552222;}#mermaid-1745203273178 .error-text{fill:#552222;stroke:#552222;}#mermaid-1745203273178 .edge-thickness-normal{stroke-width:2px;}#mermaid-1745203273178 .edge-thickness-thick{stroke-width:3.5px;}#mermaid-1745203273178 .edge-pattern-solid{stroke-dasharray:0;}#mermaid-1745203273178 .edge-pattern-dashed{stroke-dasharray:3;}#mermaid-1745203273178 .edge-pattern-dotted{stroke-dasharray:2;}#mermaid-1745203273178 .marker{fill:#333333;}#mermaid-1745203273178 .marker.cross{stroke:#333333;}#mermaid-1745203273178 svg{font-family:sans-serif;font-size:16px;}#mermaid-1745203273178 .label{font-family:sans-serif;color:#333;}#mermaid-1745203273178 .label text{fill:#333;}#mermaid-1745203273178 .node rect,#mermaid-1745203273178 .node circle,#mermaid-1745203273178 .node ellipse,#mermaid-1745203273178 .node polygon,#mermaid-1745203273178 .node path{fill:#ECECFF;stroke:#9370DB;stroke-width:1px;}#mermaid-1745203273178 .node .label{text-align:center;}#mermaid-1745203273178 .node.clickable{cursor:pointer;}#mermaid-1745203273178 .arrowheadPath{fill:#333333;}#mermaid-1745203273178 .edgePath .path{stroke:#333333;stroke-width:1.5px;}#mermaid-1745203273178 .flowchart-link{stroke:#333333;fill:none;}#mermaid-1745203273178 .edgeLabel{background-color:#e8e8e8;text-align:center;}#mermaid-1745203273178 .edgeLabel rect{opacity:0.5;background-color:#e8e8e8;fill:#e8e8e8;}#mermaid-1745203273178 .cluster rect{fill:#ffffde;stroke:#aaaa33;stroke-width:1px;}#mermaid-1745203273178 .cluster text{fill:#333;}#mermaid-1745203273178 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:sans-serif;font-size:12px;background:hsl(80,100%,96.2745098039%);border:1px solid #aaaa33;border-radius:2px;pointer-events:none;z-index:100;}#mermaid-1745203273178:root{--mermaid-font-family:sans-serif;}#mermaid-1745203273178:root{--mermaid-alt-font-family:sans-serif;}#mermaid-1745203273178 flowchart-v2{fill:apa;}</style>
